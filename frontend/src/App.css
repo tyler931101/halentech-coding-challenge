@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #001f3f;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.create-ticket-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.create-ticket-btn:hover {
+  background-color: #45a049;
+}
+
+.ticket-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.ticket-form h2 {
+  margin-bottom: 24px;
+  color: #001f3f;
+  text-align: left;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 15px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+  line-height: 1.4;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button[type='submit'],
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.ticket-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #0074D9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  text-align: left;
+}
